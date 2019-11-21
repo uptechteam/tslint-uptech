@@ -101,9 +101,6 @@
             "severity": "error"
         },
         "prefer-conditional-expression": {
-            "options": [
-                "check-else-if"
-            ],
             "severity": "error"
         },
         "radix": {
@@ -300,7 +297,7 @@
         },
         "prefer-switch": {
             "options": {
-                "min-cases": 3
+                "min-cases": 5
             },
             "severity": "error"
         },
@@ -591,9 +588,6 @@
             "severity": "error"
         },
         "prefer-conditional-expression": {
-            "options": [
-                "check-else-if"
-            ],
             "severity": "error"
         },
         "radix": {
