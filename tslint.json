@@ -195,8 +195,8 @@
                     "multiline": {
                         "objects": "always",
                         "arrays": "always",
-                        "functions": "never",
-                        "typeLiterals": "ignore"
+                        "functions": "always",
+                        "typeLiterals": "never"
                     },
                     "singleline": "never"
                 }
@@ -681,7 +681,12 @@
             "options": [
                 {
                     "esSpecCompliant": true,
-                    "multiline": "always",
+                    "multiline": {
+                        "objects": "always",
+                        "arrays": "always",
+                        "functions": "always",
+                        "typeLiterals": "never"
+                    },
                     "singleline": "never"
                 }
             ],
@@ -796,9 +801,6 @@
             "severity": "error"
         },
         "prefer-method-signature": {
-            "severity": "error"
-        },
-        "prefer-switch": {
             "severity": "error"
         },
         "prefer-template": {
