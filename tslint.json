@@ -44,6 +44,9 @@
         "no-arg": {
             "severity": "error"
         },
+        "no-any": {
+            "severity": "error"
+        },
         "no-async-without-await": {
             "severity": "error"
         },
@@ -501,6 +504,9 @@
         },
         "label-position": true,
         "no-arg": {
+            "severity": "error"
+        },
+        "no-any": {
             "severity": "error"
         },
         "no-async-without-await": {
