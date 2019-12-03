@@ -45,7 +45,7 @@
             "severity": "error"
         },
         "no-any": {
-            "severity": "error"
+            "severity": "warning"
         },
         "no-async-without-await": {
             "severity": "error"
@@ -371,6 +371,7 @@
                 "check-type",
                 "check-typecast",
                 "check-preblock",
+                "check-postbrace",
                 "check-type-operator",
                 "check-rest-spread"
             ],
@@ -507,7 +508,7 @@
             "severity": "error"
         },
         "no-any": {
-            "severity": "error"
+            "severity": "warning"
         },
         "no-async-without-await": {
             "options": [],
@@ -874,6 +875,7 @@
                 "check-type",
                 "check-typecast",
                 "check-preblock",
+                "check-postbrace",
                 "check-type-operator",
                 "check-rest-spread"
             ],
