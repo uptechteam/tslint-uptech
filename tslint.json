@@ -1,6 +1,10 @@
 {
-    "extends": [],
+    "extends": [
+        "tslint-eslint-rules"
+    ],
     "jsRules": {
+        "object-curly-spacing": true,
+        "array-bracket-spacing": true,
         "member-ordering": {
             "options": [
                 {
@@ -380,6 +384,8 @@
     },
     "linterOptions": {},
     "rules": {
+        "object-curly-spacing": true,
+        "array-bracket-spacing": true,
         "adjacent-overload-signatures": [
             true
         ],
@@ -496,7 +502,7 @@
             "severity": "error"
         },
         "curly": {
-            "options": [],
+            "options": ["as-needed"],
             "severity": "error"
         },
         "function-constructor": {
